@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Parisienne;
+    src: url(./Parisienne/Parisienne-Regular.ttf);
+}
+
+h1 {
+    font-family: Parisienne;
+}
+
+body {
+    font-family: 'Faustina', serif;
+}
+
+/*header*/
+#wrapper {
+    border: 2px solid black;
+    background: rgb(245, 240, 240);
+}
+
+.header-wrapper {
+    border: 1px dotted rgb(212, 151, 151);
+    background-color: antiquewhite;
+    position: relative;
+    top: 30px;
+    right: -50px;
+    width: 85%;
+    height: auto;
+}
+
+.header_link_logo {
+    width: 100px;
+    opacity: .5;
+    background: rgb(245, 240, 240);
+    margin-bottom: 20px;
+}
+
+.list {
+    border: 1px dotted rgb(212, 151, 151);
+    background-color: bisque;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.list_item {
+    font-size: 1em;
+    color: #353f52;
+}
+
+/*main*/
+
+.main {
+    margin: 20px;
+    overflow: scroll;
+    min-width: 200px;
+    height: 300px;
+}
+
+.main_list {
+    border: 1px dashed #353f52;
+    background: #e09fe6;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 87%;
+    color: black;
+    font-size: 15px;
+}
+
+.main_list_item_1 {
+    font-family: 'Courgette', cursive;
+}
+
+.main_list_item_2 {
+    font-family: 'Courgette', cursive;
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+}
+
+.main_content {
+    font-family: 'Faustina', serif;
+    font-size: 2em;
+    border: 1px solid black;
+}
+
+.main_content h1 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.main_content_text {
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px 15px;
+    width: 90%;
+}
+
+.main_content_pic {
+    float: left;
+    width: 200px;
+    margin: 10px;
+}
+
+.main_info {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: fixed;
+    top: 60px;
+    left: 180px;
+}
+
+.main_info_text {
+    font-family: 'Courgette', cursive;
+    color: gray;
+    font-size: 20px;
+}
+
+/*footer*/
+
+.footer {
+    border: 1px ridge #26292e;
+    background-color: #8297bd;
+    position: sticky;
+    bottom: 60px;
+}
+
+.footer h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+}
+
+.footer .footer-content {
+    padding:  0 15px 15px 15px;
+    text-align: center;
+    color: gray;
+}
